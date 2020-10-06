@@ -106,43 +106,6 @@ jobs:
         -p @semantic-release/exec@5 \
         semantic-release
 
-    # - name: Release # Uses release.config.js
-    #   if: ${{ github.event.inputs.dryRun == 'false'}}
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
-      # run: |
-        # npx \
-        # -p lodash \
-        # -p semantic-release@17 \
-        # -p @semantic-release/changelog@5 \
-        # -p @semantic-release/git@9 \
-        # -p @google/semantic-release-replace-plugin@1 \
-        # -p @semantic-release/exec@5 \
-        # semantic-release --dry-run 
-
-    # - name: Generate docs
+    # - name: Generate docs @TODO re-enable
     #   run: |
     #     appledoc --project-name Amplitude --project-company "Amplitude Inc" --company-id com.amplitude --no-create-docset --output ./doc/ .
-
-    # - name: Release --dry-run  # Uses release.config.js
-    #   if: ${{ github.event.inputs.dryRun == 'true'}}
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-    #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-    #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-    #     AWS_REGION: ${{ secrets.AWS_REGION }}
-    #     S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
-    #   run: npx semantic-release --dry-run
-
-    # - name: Release # Uses release.config.js
-    #   if: ${{ github.event.inputs.dryRun == 'false'}}
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-    #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-    #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-    #     AWS_REGION: ${{ secrets.AWS_REGION }}
-    #     S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
-    #   run: npx semantic-release
