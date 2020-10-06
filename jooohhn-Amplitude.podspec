@@ -1,4 +1,4 @@
-amplitude_version = "8.0.2"
+amplitude_version = "9.0.0"
 
 Pod::Spec.new do |s|
   s.name                   = "jooohhn-Amplitude"
