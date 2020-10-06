@@ -1,3 +1,10 @@
+# [9.1.0](https://github.com/jooohhn/Amplitude-iOS/compare/v9.0.0...v9.1.0) (2020-10-06)
+
+
+### Features
+
+* test feat release 1 ([59579cc](https://github.com/jooohhn/Amplitude-iOS/commit/59579cc9d4b410a5de5151684b2115813e2feb90))
+
 # [9.0.0](https://github.com/jooohhn/Amplitude-iOS/compare/v8.0.2...v9.0.0) (2020-10-06)
 
 
