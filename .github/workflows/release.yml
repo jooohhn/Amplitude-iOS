@@ -99,7 +99,7 @@ jobs:
         semantic-release --dry-run
 
     - name: Semantic Release
-      if: ${{ github.event.inputs.dryRun == 'false'}}
+      # if: ${{ github.event.inputs.dryRun == 'false'}}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
