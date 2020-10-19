@@ -24,7 +24,7 @@
 #import "AMPConstants.h"
 
 NSString *const kAMPLibrary = @"amplitude-ios";
-NSString *const kAMPVersion = @"9.1.3"; // Version is managed automatically by semantic-release, be careful about changing
+NSString *const kAMPVersion = @"9.2.0"; // Version is managed automatically by semantic-release, be careful about changing
 NSString *const kAMPUnknownLibrary = @"unknown-library";
 NSString *const kAMPUnknownVersion = @"unknown-version";
 NSString *const kAMPEventLogDomain = @"api2.amplitude.com";
