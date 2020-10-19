@@ -32,8 +32,14 @@ jobs:
         ruby-version: ["2.7.x"]
         node-version: ["12.x"]
     steps:
-    - name: Checkout
+    - name: Checkout Amplitude-iOS
       uses: actions/checkout@v2
+
+    - name: Checkout Amplitude-iOS gh-pages for building docs
+      uses: actions/checkout@v2
+      with:
+        ref: 'gh-pages'
+        path: 'Amplitude-iOS-gh-pages'
     
     - name: Set Xcode
       run: |
@@ -117,6 +123,3 @@ jobs:
         -p @semantic-release/exec@5 \
         semantic-release
 
-    # - name: Generate docs @TODO re-enable
-    #   run: |
-    #     appledoc --project-name Amplitude --project-company "Amplitude Inc" --company-id com.amplitude --no-create-docset --output ./doc/ .
