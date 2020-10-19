@@ -4,3 +4,4 @@ test feat 1
 test patch 2
 test patch 3
 test patch 4
+test feat 2
