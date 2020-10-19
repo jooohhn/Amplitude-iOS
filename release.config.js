@@ -55,7 +55,7 @@ module.exports = {
     }],
     ["@semantic-release/exec", {
       "publishCmd": "pod trunk push jooohhn-Amplitude.podspec", // @TODO: Replace with Amplitude.podspec
-      "successCmd": "appledoc --exit-threshold 2  --project-name Amplitude --project-company \"Amplitude Inc\" --company-id com.amplitude --no-create-docset --output ./doc/ . && rsync -av doc/html/*  Amplitude-iOS-gh-pages/ && cd Amplitude-iOS-gh-pages && git commit -m '${nextRelease.version}' && git push"
+      "successCmd": "appledoc --exit-threshold 2  --project-name Amplitude --project-company \"Amplitude Inc\" --company-id com.amplitude --no-create-docset --output ./doc/ . && rsync -av doc/html/*  Amplitude-iOS-gh-pages/ && cd Amplitude-iOS-gh-pages && git commit -am '${nextRelease.version}' && git push"
     }],
   ],
 }
