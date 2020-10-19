@@ -32,9 +32,9 @@ jobs:
         ruby-version: ["2.7.x"]
         node-version: ["12.x"]
     steps:
-    - name: Checkout
+    - name: Checkout Amplitude-iOS
       uses: actions/checkout@v2
-    
+
     - name: Set Xcode
       run: |
         sudo xcode-select -switch /Applications/Xcode_12.app
@@ -78,6 +78,18 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Checkout Amplitude-iOS gh-pages for building docs
+      uses: actions/checkout@v2
+      with:
+        ref: 'gh-pages'
+        path: 'Amplitude-iOS-gh-pages'
+
+    - name: Install appledoc
+      run: |
+        git clone git://github.com/tomaz/appledoc.git
+        cd appledoc/
+        sudo sh install-appledoc.sh
+
     - name: Semantic Release --dry-run
       if: ${{ github.event.inputs.dryRun == 'true'}}
       env:
@@ -117,6 +129,3 @@ jobs:
         -p @semantic-release/exec@5 \
         semantic-release
 
-    # - name: Generate docs @TODO re-enable
-    #   run: |
-    #     appledoc --project-name Amplitude --project-company "Amplitude Inc" --company-id com.amplitude --no-create-docset --output ./doc/ .
