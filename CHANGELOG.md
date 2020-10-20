@@ -1,3 +1,10 @@
+## [9.2.2](https://github.com/jooohhn/Amplitude-iOS/compare/v9.2.1...v9.2.2) (2020-10-20)
+
+
+### Bug Fixes
+
+* test-patch 6 ([8dc835e](https://github.com/jooohhn/Amplitude-iOS/commit/8dc835ec614b70e55acbf50c33134c956d7a442c))
+
 ## [9.2.1](https://github.com/jooohhn/Amplitude-iOS/compare/v9.2.0...v9.2.1) (2020-10-19)
 
 
