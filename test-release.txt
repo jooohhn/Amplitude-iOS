@@ -7,3 +7,4 @@ test patch 4
 test feat 2
 test patch 5
 test patch 6
+test patch 7
