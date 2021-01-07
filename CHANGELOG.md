@@ -1,3 +1,17 @@
+# [9.3.0](https://github.com/jooohhn/Amplitude-iOS/compare/v9.2.1...v9.3.0) (2021-01-07)
+
+
+### Bug Fixes
+
+* test appledoc ([63ac32a](https://github.com/jooohhn/Amplitude-iOS/commit/63ac32a027691685edd03b850a511bc528a3add6))
+* test patch 7 ([2bbd3c8](https://github.com/jooohhn/Amplitude-iOS/commit/2bbd3c86bcbaa0c008ad94a42cd77845e688fde9))
+* test-patch 6 ([8dc835e](https://github.com/jooohhn/Amplitude-iOS/commit/8dc835ec614b70e55acbf50c33134c956d7a442c))
+
+
+### Features
+
+* test feat 3 ([f2eecec](https://github.com/jooohhn/Amplitude-iOS/commit/f2eecec3a055e32f3dc4cb05027e71af684d6ef9))
+
 ## [9.2.2](https://github.com/jooohhn/Amplitude-iOS/compare/v9.2.1...v9.2.2) (2021-01-07)
 
 
