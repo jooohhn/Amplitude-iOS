@@ -1,3 +1,10 @@
+## [9.3.1](https://github.com/jooohhn/Amplitude-iOS/compare/v9.3.0...v9.3.1) (2021-01-08)
+
+
+### Bug Fixes
+
+* plist ([12559c4](https://github.com/jooohhn/Amplitude-iOS/commit/12559c4b328f8c4f56843ebb9a9fb6c964c12b0c))
+
 # [9.3.0](https://github.com/jooohhn/Amplitude-iOS/compare/v9.2.1...v9.3.0) (2021-01-07)
 
 
