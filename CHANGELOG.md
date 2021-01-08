@@ -1,3 +1,10 @@
+## [9.3.3](https://github.com/jooohhn/Amplitude-iOS/compare/v9.3.2...v9.3.3) (2021-01-08)
+
+
+### Bug Fixes
+
+* release.yml ([fa69ea5](https://github.com/jooohhn/Amplitude-iOS/commit/fa69ea5b2c8f86515aa3e3a06ae927ea82925587))
+
 ## [9.3.2](https://github.com/jooohhn/Amplitude-iOS/compare/v9.3.1...v9.3.2) (2021-01-08)
 
 
